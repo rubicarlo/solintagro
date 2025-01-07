@@ -1,44 +1,80 @@
 <template>
-  <div>
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mi App</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link to="/" class="nav-link">Inicio</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link to="/contacto" class="nav-link">Contacto</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link to="/sobre-solintagro" class="nav-link">Acerca de</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <router-link to="/" class="navbar-brand">
+        <img src="/logosolitagro.svg" alt="Logo" class="custom-logo" />
+      </router-link>
 
-    <!-- Contenedor dinámico para las rutas -->
-    <router-view></router-view>
-  </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link to="/" class="nav-link">Inicio</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/contacto" class="nav-link">Contacto</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/sobre-solintagro" class="nav-link">Acerca de</router-link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <router-view></router-view>
 </template>
 
-<script setup>
-</script>
-
 <style scoped>
-</style><script setup lang="ts">
-</script>
+/* Estilos para el logo */
+.custom-logo {
+  height: 70px; /* Ajusta la altura deseada */
+  width: auto;   /* Mantiene la proporción original */
+  /* Elimina espaciados adicionales que puedan afectar el tamaño */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para la barra de navegación (ajustes finos) */
+.navbar {
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #333;
+    padding: 0.5rem 1rem;
+    position: relative; /* Necesario para el posicionamiento del pseudo-elemento */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+</style>
