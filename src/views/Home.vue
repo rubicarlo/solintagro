@@ -1,22 +1,45 @@
 <template>
   <div>
     <section class="fondo-seccion">
-  <div class="contenedor-grid">
-    <div>
-      <h2>Contenido de la sección con fondo</h2>
-      <p>Esta es la sección con el fondo actualizado y mayor altura.</p>
-    </div>
-    <div class="d-flex justify-content-center">
-  <img src="../assets/leguminosas.png"  style="max-height: 500px; width: auto;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="display-3 fw-bold">Contenido de la sección con fondo</h1>
+        <p class="fs-5">Esta es la sección con el fondo actualizado y mayor altura. Esta es la sección con el fondo actualizado y mayor altura.</p>
+      </div>
+      <div class="col-12 col-md-6">
+  <img src="../assets/leguminosas.png" class="img-fluid rounded mx-auto d-block w-75" alt="Imagen de leguminosas">
 </div>
 
+    </div>
   </div>
 </section>
 
-    <section>
-      <h2>Otra sección sin fondo especial</h2>
-      <p>Esta sección no tiene el fondo personalizado.</p>
-    </section>
+<section class="container mt-5">
+  <div class="row text-center">
+    <div class="col-12 col-md-3 mb-4">
+      <img src="../assets/peas com(2).svg" class="img-fluid w-50" alt="Imagen de guisantes en color verde">
+      <p class="fs-5">Imagen de guisantes colgando</p>
+    </div>
+    <div class="col-12 col-md-3 mb-4">
+      <img src="../assets/beans com(2).svg" class="img-fluid w-50" alt="Imagen de frijoles en color marrón">
+      <p class="fs-5">Imagen de guisantes en color verde</p>
+    </div>
+    <div class="col-12 col-md-3 mb-4">
+      <img src="../assets/peas com(3).svg" class="img-fluid w-50" alt="Imagen de guisantes en color verde claro">
+      <p class="fs-5">Imagen de baina</p>
+    </div>
+    <div class="col-12 col-md-3 mb-4">
+      <img src="../assets/peas1.svg" class="img-fluid w-50" alt="Imagen de guisantes en color verde oscuro">
+      <p class="fs-5">Imagen de guisantes otra</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
   </div>
 </template>
 

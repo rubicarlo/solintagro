@@ -1,7 +1,7 @@
 <template>
   
-  <div class="container mt-4" style="max-width: 90%;">
-    <h1 class="text-center mb-4 fw-bold fs-1 mt-5">Dónde estamos</h1>
+  <div class="container mt-4" style="max-width: 90%; font-family: 'Josefin Sans', sans-serif;">
+    <h1 class="text-center mb-4 fw-bold fs-1 mt-5">Encuentranos en</h1>
 </div>
 
 
@@ -18,26 +18,24 @@
     </div>
 
     <!-- Panel Derecho -->
-    <div class="col-md-6 col-lg-5 right-panel p-4">
-      <h2 style="font-weight: bold; display: inline;">Dónde estamos</h2>
-<div class="row">
-    <div class="col-md-3">
-        <h5 style="font-weight: 600; display: inline;">Oficina principal</h5>
-        <p>C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004</p>
-        <h5 style="font-weight: 600; display: inline;">Teléfono</h5>
-        <p>957 44 66 22</p>
-    </div>
-    <div class="col-md-3">
-        <h5 style="font-weight: 600; display: inline;">Escríbenos a...</h5>
-        <p></p>
-        <a href="mailto:solintagro@gmail.com">solintagro@gmail.com</a>
-
+    <div class="col-md-6 col-lg-5 right-panel p-4" style="font-family: 'Josefin Sans', sans-serif;">
+    
+    <div class="row gap-4">
+        <div class="col-md-3 d-flex flex-column gap-3">
+            <h5 style="font-weight: 600;">Oficina principal</h5>
+            <p>C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004</p>
+            <h5 style="font-weight: 600;">Teléfono</h5>
+            <p>957 44 66 22</p>
+        </div>
+        <div class="col-md-3 d-flex flex-column gap-3">
+            <h5 style="font-weight: 600;">Email</h5>
+            <a href="mailto:solintagro@gmail.com">solintagro@gmail.com</a>
+        </div>
     </div>
 </div>
 
-    </div>
     
-    <div class="col-md-6 col-lg-5 right-panel p-4">
+    <div class="col-md-6 col-lg-5 right-panel p-4" style="font-family: 'Josefin Sans', sans-serif;">
       <form @submit.prevent="sendEmail" class="needs-validation" novalidate>
         <div class="mb-3">
           <label for="name" class="form-label">Nombre</label>
