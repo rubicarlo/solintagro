@@ -5,6 +5,7 @@ import Home from '../views/Home.vue';
 import Contacto from '../views/Contacto.vue';
 import Sobre from '../views/Sobre.vue';
 import Privacidad from '../views/Privacidad.vue';
+import Aviso from '../views/Aviso.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -13,7 +14,12 @@ const routes = [
   {
     path: '/privacidad',
     name: 'Privacidad',
-    component: Privacidad, // Nueva ruta
+    component: Privacidad, 
+  },
+  {
+    path: '/Aviso',
+    name: 'Aviso',
+    component: Aviso,
   },
 ];
 

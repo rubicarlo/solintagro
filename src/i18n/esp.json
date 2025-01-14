@@ -1,0 +1,15 @@
+{  
+  "menu": {
+    "inicio": "Inicio",
+    "sobreNosotros": "Sobre Nosotros",
+    "contacto": "Contacto"
+  },
+    "about": {
+      "tituloPrincipal": "SOLINTAGRO",
+      "bienvenida": "Bienvenidos a Solintagro",
+      "descripcionBienvenida": "Ofrecemos soluciones agrícolas innovadoras para maximizar la productividad de tus cultivos.",
+      "parrafo1": "Vicia faba, comúnmente conocida como haba (también faba en algunos lugares), es una especie de planta herbácea anual del género Vicia de la familia Fabaceae. Se cultiva desde tiempos inmemoriales para alimentación humana y animal. Es la especie tipo de la familia Fabaceae.",
+      "parrafo2": "blabla vla"
+    }
+    
+  }

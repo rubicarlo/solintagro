@@ -1,0 +1,14 @@
+{
+  "menu": {
+    "inicio": "Intro",
+    "sobreNosotros": "About us",
+    "contacto": "Contact"
+  },
+    "about": {
+      "tituloPrincipal": "SOLINTAGRO",
+      "bienvenida": "Welcome to Solintagro",
+      "descripcionBienvenida": "We offer innovative agricultural solutions to maximize the productivity of your crops.",
+      "parrafo1": "Vicia faba, commonly known as broad bean (also faba in some places), is a species of annual herbaceous plant of the genus Vicia of the Fabaceae family. It has been cultivated since time immemorial for human and animal food. It is the type species of the Fabaceae family.",
+      "parrafo2": "blabla vla en ingles"
+    }
+  }

@@ -14,8 +14,8 @@
     <p class="mb-3">
       Denominación social: Solintagro
       <br>Nombre comercial: Solintagro
-      <br>CIF:
-      <br>Domicilio: 
+      <br>CIF: B56023476
+      <br>Domicilio: C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2.
       <br>e-mail:  
     </p>
 
