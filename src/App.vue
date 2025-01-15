@@ -61,6 +61,9 @@ const changeToEng = () => {
             <router-link to="/sobre-solintagro" class="nav-link">{{ $t('menu.sobreNosotros') }}</router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/Experiencia" class="nav-link">{{ $t('menu.experiencia') }}</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/contacto" class="nav-link">{{ $t('menu.contacto') }}</router-link>
           </li>
         </ul>

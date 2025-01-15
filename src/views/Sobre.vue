@@ -44,9 +44,9 @@
 </template>
 
 <script>
-import tresLentejas from '../assets/3lentejas.png';
-import broadBeans from '../assets/broad beans.png';
-import leguma from '../assets/leguma.png';
+import tresLentejas from '@/assets/3lentejas.webp';
+import broadBeans from '@/assets/Broad Beans.webp';
+import leguma from '@/assets/leguma.webp';
 
 export default {
   name: 'NuevoComponente',

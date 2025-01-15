@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import leguminosasImage from '../assets/leguminosas.png'; 
+import leguminosasImage from '../assets/leguminosas.webp'; 
 import peasCom2 from '../assets/peas com(2).svg';
 import beansCom2 from '../assets/beans com(2).svg';
 import peasCom3 from '../assets/peas com(3).svg';

@@ -6,6 +6,7 @@ import Contacto from '../views/Contacto.vue';
 import Sobre from '../views/Sobre.vue';
 import Privacidad from '../views/Privacidad.vue';
 import Aviso from '../views/Aviso.vue';
+import Experiencia from '../views/Experiencia.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -20,6 +21,11 @@ const routes = [
     path: '/Aviso',
     name: 'Aviso',
     component: Aviso,
+  },
+  {
+    path: '/Experiencia',
+    name: 'Experiencia',
+    component: Experiencia,
   },
 ];
 
