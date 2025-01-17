@@ -52,14 +52,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.fondo-seccion {
-    background-image: url('../assets/fondo.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 50vh;
-    padding: 40px;
-}
-
-</style>
