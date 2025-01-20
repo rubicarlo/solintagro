@@ -77,7 +77,7 @@ const changeToEng = () => {
     <div class="container">
       <p class="mb-0">&copy; 2025 Solintagro. Todos los derechos reservados.</p>
       <p class="mb-0">
-        <router-link to="/Privacidad" class="text-white">Política de Privacidad</router-link>
+        <router-link to="/Privacidad" class="text-white">Política de Privacidad</router-link>  |  
         <a href="/aviso" class="text-white">Aviso legal</a>
       </p>
     </div>

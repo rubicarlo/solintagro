@@ -11,7 +11,22 @@
       "descripcionBienvenida": "We are a company dedicated to crop improvement, with solid experience in seed development and marketing. We specialize in legumes, from the collection and conservation of germplasm to its direct application in genetic improvement. We work in collaboration with a network of farms to promote the cultivation of grain legumes in Mediterranean dryland farming systems.",
       "tituloproyectos": "PROJECTS IN WHICH WE ARE INVOLVED",
       "tituloWP": "WP IN WHICH WE ARE INVOLVED"
+    },
+    
+      "Contacto": {
+        "tituloPrincipal": "Find us at",
+        "oficina": "Main Office",
+        "lugar": "C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004",
+        "Telefono": "Phone",
+        "Emilio": "Email",
+        "Correonombre":"Name",
+        "cuadronombre":"Enter your name or company name",
+        "Correoemilio":"Email",
+        "cuadrocorreo":"Enter your email",
 
+        "Correoasunto":"Subject",
+        "cuadroasunto":"Write your message here"
 
+      
     }
   }

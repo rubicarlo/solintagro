@@ -1,7 +1,7 @@
 <template>
   
   <div class="container mt-4" style="max-width: 90%; font-family: 'Josefin Sans', sans-serif;">
-    <h1 class="text-center mb-4 fw-bold fs-1 mt-5">Encuentranos en</h1>
+    <h1 class="text-center mb-4 fw-bold fs-1 mt-5">{{ $t('Contacto.tituloPrincipal') }}</h1>
 </div>
 
 
@@ -22,13 +22,13 @@
     
     <div class="row gap-4">
         <div class="col-md-3 d-flex flex-column gap-3">
-            <h5 style="font-weight: 600;">Oficina principal</h5>
-            <p>C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004</p>
-            <h5 style="font-weight: 600;">Teléfono</h5>
-            <p>957 44 66 22</p>
+            <h5 style="font-weight: 600;">{{ $t('Contacto.oficina') }}</h5>
+            <p>{{ $t('Contacto.lugar') }}</p>
+            <h5 style="font-weight: 600;">{{ $t('Contacto.Telefono') }}</h5>
+            <p>957 44 55 11 </p>
         </div>
         <div class="col-md-3 d-flex flex-column gap-3">
-            <h5 style="font-weight: 600;">Email</h5>
+            <h5 style="font-weight: 600;">{{ $t('Contacto.Emilio') }}</h5>
             <a href="mailto:solintagro@gmail.com">solintagro@gmail.com</a>
         </div>
     </div>
@@ -39,17 +39,16 @@
       <form @submit.prevent="sendEmail" class="needs-validation" novalidate>
   <!-- Campo Nombre -->
   <div class="mb-3">
-    <label for="name" class="form-label">Nombre</label>
+    <label for="name" class="form-label">{{ $t('Contacto.Correonombre') }}</label>
     <input
-      type="text"
-      id="name"
-      v-model="formData.name"
-      class="form-control"
-      :class="{'is-invalid': errors.name}"
-      placeholder="Ingresa tu nombre o el de tu empresa"
-      @blur="validateField('name')"
-      required
-    />
+    type="text"
+    id="name"
+    v-model="formData.name"
+    class="form-control"
+    :class="{'is-invalid': errors.name}"
+    :placeholder="$t('Contacto.cuadronombre')"  @blur="validateField('name')"
+    required
+  />
     <div v-if="errors.name" class="invalid-feedback">
       {{ errors.name }}
     </div>
@@ -57,14 +56,14 @@
 
   <!-- Campo Email -->
   <div class="mb-3">
-    <label for="email" class="form-label">Tu correo</label>
+    <label for="email" class="form-label">{{ $t('Contacto.Correoemilio') }}</label>
     <input
       type="email"
       id="email"
       v-model="formData.email"
       class="form-control"
       :class="{'is-invalid': errors.email}"
-      placeholder="Ingresa tu correo"
+      :placeholder="$t('Contacto.cuadrocorreo')"
       @blur="validateField('email')"
       required
     />
@@ -75,13 +74,13 @@
 
   <!-- Campo Mensaje -->
   <div class="mb-3">
-    <label for="message" class="form-label">Tu mensaje</label>
+    <label for="message" class="form-label">{{ $t('Contacto.Correoasunto') }}</label>
     <textarea
       id="message"
       v-model="formData.message"
       class="form-control"
       :class="{'is-invalid': errors.message}"
-      placeholder="Escribe tu mensaje aquí"
+      :placeholder="$t('Contacto.cuadroasunto')"
       rows="4"
       @blur="validateField('message')"
       required
