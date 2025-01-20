@@ -2,15 +2,16 @@
   "menu": {
     "inicio": "Intro",
     "sobreNosotros": "About us",
-    "proyectos":"Projects",
+    "proyectos":"Our work",
     "contacto": "Contact"
   },
     "about": {
       "tituloPrincipal": "SOLINTAGRO",
       "bienvenida": "Welcome to Solintagro",
-      "descripcionBienvenida": "We offer innovative agricultural solutions to maximize the productivity of your crops.",
-      "seccion1": "Vicia faba, commonly known as fava bean (also faba bean in some places), is an annual herbaceous plant species of the genus Vicia of the family Fabaceae. It has been cultivated since time immemorial for human and animal food. It is the type species of the Fabaceae family.",
-      "seccion2": "blabla vla",
-      "seccion3": "Ahcemos baabsb"
+      "descripcionBienvenida": "We are a company dedicated to crop improvement, with solid experience in seed development and marketing. We specialize in legumes, from the collection and conservation of germplasm to its direct application in genetic improvement. We work in collaboration with a network of farms to promote the cultivation of grain legumes in Mediterranean dryland farming systems.",
+      "tituloproyectos": "PROJECTS IN WHICH WE ARE INVOLVED",
+      "tituloWP": "WP IN WHICH WE ARE INVOLVED"
+
+
     }
   }

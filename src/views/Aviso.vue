@@ -5,11 +5,11 @@
 
             
 
-            <p><strong>Diego Rubiales Olmedo</strong>, responsable del sitio web, en adelante RESPONSABLE, pone a disposición de los usuarios el presente documento, con el que pretende dar cumplimiento a las obligaciones dispuestas en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE), así como informar a todos los usuarios del sitio web respecto a cuáles son las condiciones de uso.</p>
+            <p><strong>Pedro Luna Casado</strong>, responsable del sitio web, en adelante RESPONSABLE, pone a disposición de los usuarios el presente documento, con el que pretende dar cumplimiento a las obligaciones dispuestas en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE), así como informar a todos los usuarios del sitio web respecto a cuáles son las condiciones de uso.</p>
 <p>Toda persona que acceda a este sitio web asume el papel de usuario, comprometiéndose a la observancia y cumplimiento riguroso de las disposiciones aquí dispuestas, así como a cualquier otra disposición legal que fuera de aplicación.&nbsp;</p>
 <p><strong>Diego Rubiales Olmedo.</strong><span>&nbsp;</span>se reserva el derecho de modificar cualquier tipo de información que pudiera aparecer en el sitio web, sin que exista obligación de preavisar o poner en conocimiento de los usuarios dichas obligaciones, entendiéndose como suficiente con la publicación en el sitio web de Solintagro.</p>
 <h3><strong>1. DATOS IDENTIFICATIVOS</strong></h3>
-<p>Denominación social:<span>&nbsp;</span><strong>Diego Rubiales Olmedo</strong><br>Nombre comercial:<span>&nbsp;</span><strong>SOLINTAGRO</strong><br>CIF:<span> B56023476</span><br>Domicilio:<span> C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2.<br></span></p>
+<p>Denominación social:<span>&nbsp;</span><strong>Pedro Luna Casado</strong><br>Nombre comercial:<span>&nbsp;</span><strong>SOLINTAGRO</strong><br>CIF:<span> B56023476</span><br>Domicilio:<span> C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2.<br></span></p>
 <p>14005 Córdoba<br>e-mail:<span> <strong>info</strong></span><strong>@solintagro.com</strong></p>
 <h3><strong>2. OBJETO</strong></h3>
 <p>A través de www.solintagro.com, les ofrecemos a los Usuarios la posibilidad de acceder a la información sobre nuestros servicios.</p>

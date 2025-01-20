@@ -61,7 +61,7 @@ const changeToEng = () => {
             <router-link to="/sobre-solintagro" class="nav-link">{{ $t('menu.sobreNosotros') }}</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/Proyectos" class="nav-link">{{ $t('menu.proyectos') }}</router-link>
+            <router-link to="/Trabajos" class="nav-link">{{ $t('menu.proyectos') }}</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/contacto" class="nav-link">{{ $t('menu.contacto') }}</router-link>
@@ -78,7 +78,7 @@ const changeToEng = () => {
       <p class="mb-0">&copy; 2025 Solintagro. Todos los derechos reservados.</p>
       <p class="mb-0">
         <router-link to="/Privacidad" class="text-white">Política de Privacidad</router-link>
-        <a href="/terminos" class="text-white">Aviso legal</a>
+        <a href="/aviso" class="text-white">Aviso legal</a>
       </p>
     </div>
   </footer>

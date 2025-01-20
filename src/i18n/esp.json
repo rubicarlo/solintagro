@@ -2,16 +2,16 @@
   "menu": {
     "inicio": "Inicio",
     "sobreNosotros": "Sobre Nosotros",
-    "proyectos":"Proyectos",
+    "proyectos":"Trabajos",
     "contacto": "Contacto"
   },
     "about": {
       "tituloPrincipal": "SOLINTAGRO",
       "bienvenida": "Bienvenidos a Solintagro",
-      "descripcionBienvenida": "Ofrecemos soluciones agrícolas innovadoras para maximizar la productividad de tus cultivos.",
-      "seccion1": "Vicia faba, comúnmente conocida como haba (también faba en algunos lugares), es una especie de planta herbácea anual del género Vicia de la familia Fabaceae. Se cultiva desde tiempos inmemoriales para alimentación humana y animal. Es la especie tipo de la familia Fabaceae.",
-      "seccion2": "blabla vla",
-      "seccion3": "Ahcemos baabsb"
+      "descripcionBienvenida": "Somos una empresa dedicada a la mejora de cultivos, con una sólida experiencia en el desarrollo y la comercialización de semillas. Nos especializamos en leguminosas, desde la recolección y conservación de germoplasma hasta su aplicación directa en la mejora genética. Trabajamos en colaboración con una red de explotaciones para promover el cultivo de leguminosas de grano en los sistemas agrícolas mediterráneos de secano.",
+      "tituloproyectos": "PROYECTOS EN LOS QUE PARTICIPAMOS",
+      "tituloWP": "PROJECTS IN WHICH WE ARE INVOLVED"
+
     }
     
   }
