@@ -24,13 +24,14 @@
       </div>
     </div>
 
+    <!-- Modal para mostrar la imagen grande -->
     <div
       v-if="imagenSeleccionada"
       class="modal fade show d-block"
       tabindex="-1"
       @click.self="cerrarModal"
     >
-      <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">{{ imagenSeleccionada.titulo }}</h5>
@@ -43,16 +44,17 @@
           <div class="modal-body text-center">
             <img
               :src="imagenSeleccionada.imagen"
-              alt=""
-              class="img-fluid rounded mb-3"
+              :alt="imagenSeleccionada.titulo"
+              class="img-fluid rounded"
             />
-            <p class="text-muted">{{ imagenSeleccionada.descripcion }}</p>
+            <p class="text-muted mt-3">{{ imagenSeleccionada.descripcion }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 import AGILE from '@/assets/Experiencia/AGILE27Abril2018.jpg';
@@ -95,16 +97,16 @@ export default {
 <style scoped>
 .image-wrapper {
   width: 100%;
-  height: 200px; /* Ajusta esta altura para que las imágenes se vean uniformes */
+  height: 200px; /* Ajusta esta altura para uniformidad */
   overflow: hidden;
-  border-radius: 0.75rem; /* Bordes redondeados */
+  border-radius: 0.75rem;
 }
 
 .image-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsionar */
-  transition: transform 0.3s ease-in-out; /* Animación suave */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card {
@@ -112,11 +114,12 @@ export default {
 }
 
 .card:hover .image-wrapper img {
-  transform: scale(1.1); /* Efecto de zoom en la imagen */
+  transform: scale(1.1); /* Efecto de zoom */
 }
 
+
 .card:hover {
-  transform: translateY(-5px); /* Eleva la tarjeta cuando se pasa el mouse */
+  transform: translateY(-5px);
 }
 
 .card-body {
@@ -130,9 +133,11 @@ export default {
 }
 
 .modal-body img {
-  max-height: 70vh; /* Para que las imágenes grandes no sobrepasen la altura de la ventana */
-  object-fit: contain; /* Se adapta sin recortar */
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del modal */
+  max-height: 80vh; /* Para pantallas altas */
+  object-fit: contain; /* Asegura que la imagen no se distorsione */
   border-radius: 0.75rem;
+  margin: auto;
 }
 
 .modal.fade .modal-dialog {

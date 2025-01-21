@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-3 d-flex flex-column gap-3">
             <h5 style="font-weight: 600;">{{ $t('Contacto.Emilio') }}</h5>
-            <a href="mailto:solintagro@gmail.com">solintagro@gmail.com</a>
+            <a href="mailto:eleonora.solintagro@gmail.com">eleonora.solintagro@gmail.com</a>
         </div>
     </div>
 </div>
