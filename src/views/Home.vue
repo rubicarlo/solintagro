@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row align-items-center py-3">
           <div class="col-md-6">
-            <h1 class="display-3 fw-bold">Contenido de la sección con fondo</h1>
-            <p class="fs-5">Esta es la sección con el fondo actualizado y optimizada en altura. Proporciona información relevante de manera compacta.</p>
+            <h1 class="display-3 fw-bold">{{ $t('Home.tituloPrincipal') }}</h1>
+            <p class="fs-5">{{ $t('Home.bienvenida') }}</p>
           </div>
           <div class="col-12 col-md-6 text-center">
             <picture>
@@ -24,7 +24,7 @@
     </section>
 
     <section class="container mt-5">
-      <h2 class="text-center mb-5 display-5">Colaboramos con</h2>
+      <h2 class="text-center mb-5 display-5">{{ $t('Home.Colaboramos') }}</h2>
       <div class="row text-center justify-content-center">
         <div
           class="col-12 col-md-3 mb-4"

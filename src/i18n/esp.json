@@ -5,6 +5,11 @@
     "proyectos":"Trabajos",
     "contacto": "Contacto"
   },
+    "Home":{
+      "tituloPrincipal": "Contenido de la sección con fondo",
+      "bienvenida": "Esta es la sección con el fondo actualizado y optimizada en altura. Proporciona información relevante de manera compacta.",
+      "Colaboramos": "Colaboramos con"
+    },
     "about": {
       "tituloPrincipal": "SOLINTAGRO",
       "bienvenida": "Bienvenidos a Solintagro",
@@ -23,11 +28,23 @@
       "cuadronombre":"Ingresa tu nombre o el de tu empresa",
       "Correoemilio":"Email",
       "cuadrocorreo":"Ingresa tu email",
-
+      "Correoasunto":"Asunto",
+      "cuadroasunto":"Escribe tu mensaje aquí",
+      "Boton":"Enviar"
+    },
+    "Trabajos": {
+      "tituloPrincipal": "Así trabajamos",
+      "oficina": "Oficina principal",
+      "lugar": "C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004",
+      "Telefono": "Teléfono",
+      "Emilio": "Email",
+      "Correonombre":"Nombre",
+      "cuadronombre":"Ingresa tu nombre o el de tu empresa",
+      "Correoemilio":"Email",
+      "cuadrocorreo":"Ingresa tu email",
       "Correoasunto":"Asunto",
       "cuadroasunto":"Escribe tu mensaje aquí"
-
-    }  
+    }    
 
     
   }
