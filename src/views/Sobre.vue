@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
   <section>
     <div class="fondo-seccion container-fluid bg-light p-3">
       <div class="row text-center">
@@ -18,90 +19,173 @@
     </div>
 
     <div class="container mt-4">
+  <h2 class="text-center mb-5 display-5">Proyectos</h2>
 
-      <h2 class="text-center mb-5 display-5 ">{{ $t('about.tituloproyectos') }}</h2>
+  <!-- Elementos colapsables -->
+  <div class="accordion">
     <!-- Primer elemento -->
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">2017- 2021</div>
-      <div class="fw-bold mb-1">Partner of EU project TRUE (TRansition to sUstainable legume based systems in Europe)</div>
-      <div class="text-secondary">H2020-SFS-2016-2017/H2020-SFS-2016-2</div>
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark collapsed"
+           data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false">
+        <div>
+          <div class="text-muted">2017-2021</div>
+          <div>Partner of EU project TRUE</div>
+        </div>
+        <i class="bi bi-chevron-down icon-toggle"></i>
+      </div>
+      <div id="collapse1" class="collapse p-3">
+        <div class="text-secondary">H2020-SFS-2016-2017/H2020-SFS-2016-2</div>
+      </div>
     </div>
-
     <!-- Segundo elemento -->
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">2017 - 2020</div>
-      <div class="fw-bold mb-1">External collaborator for AGILE (Application of Genomic Innovation in the Lentil Economy) project</div>
-      <div class="text-secondary">University of Saskatchewan, Canada</div>
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark"
+           data-bs-toggle="collapse" data-bs-target="#collapse2">
+        <div>
+          <div class="text-muted">2017 - 2020</div>
+          <div>External collaborator for AGILE project</div>
+        </div>
+        <i class="bi bi-chevron-down transition"></i>
+      </div>
+      <div id="collapse2" class="collapse p-3">
+        <div class="text-secondary">University of Saskatchewan, Canada</div>
+      </div>
     </div>
 
     <!-- Tercer elemento -->
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">2016 - 2018</div>
-      <div class="fw-bold mb-1">Contrats with ITQB, Portugal for grasspea and common bean multiplication and characterization</div>
-      <div class="text-secondary">                  </div>
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark"
+           data-bs-toggle="collapse" data-bs-target="#collapse3">
+        <div>
+          <div class="text-muted">2016 - 2018</div>
+          <div>Contracts with ITQB, Portugal</div>
+        </div>
+        <i class="bi bi-chevron-down transition"></i>
+      </div>
+      <div id="collapse3" class="collapse p-3">
+        <div class="text-secondary">Multiplication and characterization of grasspea and common bean</div>
+      </div>
     </div>
 
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">2016 – till present</div>
-      <div class="fw-bold mb-1">Agreement with IAS-CSIC on legume research</div>
-      <div class="text-secondary">                  </div>
+    <!-- Cuarto elemento -->
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark"
+           data-bs-toggle="collapse" data-bs-target="#collapse4">
+        <div>
+          <div class="text-muted">2016 – till present</div>
+          <div>Agreement with IAS-CSIC on legume research</div>
+        </div>
+        <i class="bi bi-chevron-down transition"></i>
+      </div>
+      <div id="collapse4" class="collapse p-3">
+        <div class="text-secondary">Detalles adicionales...</div>
+      </div>
     </div>
 
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">   2016 – till present</div>
-      <div class="fw-bold mb-1">LegumES</div>
-      <div class="text-secondary">                  </div>
+    <!-- Quinto elemento -->
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark"
+           data-bs-toggle="collapse" data-bs-target="#collapse5">
+        <div>
+          <div class="text-muted">2016 – till present</div>
+          <div>LegumES</div>
+        </div>
+        <i class="bi bi-chevron-down transition"></i>
+      </div>
+      <div id="collapse5" class="collapse p-3">
+        <div class="text-secondary">Detalles adicionales...</div>
+      </div>
     </div>
 
-    <div class="mb-4 p-3 border rounded-3 bg-light">
-      <div class="text-muted mb-1">   2016 – till present</div>
-      <div class="fw-bold mb-1">PROSPER (Promoting Resilient Orphan Legumes for Sustainable Agriculture and Food Security)</div>
-      <div class="text-secondary">HORIZON-CL6-2024-BIODIV-02-3-two-stage, ID number: SEP-211009149</div>
+    <!-- Sexto elemento -->
+    <div class="mb-3 border rounded-3 bg-light">
+      <div class="p-3 d-flex justify-content-between align-items-center fw-semibold accordion-header text-dark"
+           data-bs-toggle="collapse" data-bs-target="#collapse6">
+        <div>
+          <div class="text-muted">2016 – till present</div>
+          <div>PROSPER</div>
+        </div>
+        <i class="bi bi-chevron-down transition"></i>
+      </div>
+      <div id="collapse6" class="collapse p-3">
+        <div class="text-secondary">HORIZON-CL6-2024-BIODIV-02-3-two-stage, ID number: SEP-211009149</div>
+      </div>
     </div>
+  </div>
+
+
 
     <!-- Agregar más elementos aquí de ser necesario -->
   </div>
 
 
   <div class="container mt-4">
+    <h2 class="text-center mb-5 display-5 ">{{ $t('about.tituloWP') }}</h2>
 
-<h2 class="text-center mb-5 display-5 ">{{ $t('about.tituloWP') }}</h2>
-<!-- Primer elemento -->
-<div class="mb-4 p-3 border rounded-3 bg-light">
-<div class="fw-bold mb-1">WP5 Novel dishes and processed products enhancing biodiversity</div>
-<div class="text-secondary">(Task 5.4)</div>
-</div>
+    <!-- WP5 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp5">
+            WP5 Novel dishes and processed products enhancing biodiversity
+        </div>
+        <div id="wp5" class="collapse text-secondary">
+            (Task 5.4)
+        </div>
+    </div>
 
-<!-- Segundo elemento -->
-<div class="mb-4 p-3 border rounded-3 bg-light">
+    <!-- WP6 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp6">
+            WP6 Environment and Biodiversity
+        </div>
+        <div id="wp6" class="collapse text-secondary">
+            (Tasks 6.1, 6.2, 6.3, 6.4)
+        </div>
+    </div>
 
-<div class="fw-bold mb-1">WP6 Environment and Biodiversity</div>
-<div class="text-secondary">(Tasks 6.1, 6.2, 6.3, 6.4)</div>
-</div>
+    <!-- WP7 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp7">
+            WP7 Exploitation of genetic diversity and development of pre-breeding material
+        </div>
+        <div id="wp7" class="collapse text-secondary">
+            (Tasks 7.1, 7.2: Pilot cases (with Germany), 7.3, 7.4: Vertical approach to proliferate the results
+            <br> D7.4.1 Handbook on Lens culinaris (SOL) [M45]
+            <br> D7.4.2 Handbook on Lathyrus spp. (SOL) [M45] )
+        </div>
+    </div>
 
-<!-- Tercer elemento -->
-<div class="mb-4 p-3 border rounded-3 bg-light">
+    <!-- WP8 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp8">
+            WP8 Enhancing the agri-food value chain biodiversity links via the BIOVALUE tool
+        </div>
+        <div id="wp8" class="collapse text-secondary">
+            (Tasks 8.1, 8.3)
+        </div>
+    </div>
 
-<div class="fw-bold mb-1">WP7 Exploitation of genetic diversity and development of pre-breeding material</div>
-<div class="text-secondary">(Tasks 7.1, 7.2: Pilot cases  (with Germany), 7.3, 7.4: Vertical approach to proliferate the results 
-	D7.4.1 Handbook on Lens culinaris (SOL) [M45] 
-	D7.4.2 Handbook on Lathyrus spp. (SOL) [M45] )                  </div>
-</div>
+    <!-- WP9 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp9">
+            WP9 Certification, testing and labelling of underutilized products
+        </div>
+        <div id="wp9" class="collapse text-secondary">
+            (Task 9.1)
+        </div>
+    </div>
 
-<div class="mb-4 p-3 border rounded-3 bg-light">
-<div class="fw-bold mb-1">WP8 Enhancing the agri-food value chain biodiversity links via the BIOVALUE tool</div>
-<div class="text-secondary">(Tasks 8.1, 8.3)</div>
-</div>
+    <!-- WP10 -->
+    <div class="mb-4 p-3 border rounded-3 bg-light">
+        <div class="fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#wp10">
+            WP10 Communication, Dissemination and Capacity Building
+        </div>
+        <div id="wp10" class="collapse text-secondary">
+            (Tasks 10.1, 10.2, 10.3, 10.5)
+        </div>
+    </div>
 
-<div class="mb-4 p-3 border rounded-3 bg-light">
-<div class="fw-bold mb-1">WP9 Certification, testing and labelling of underutilized products</div>
-<div class="text-secondary">(Task 9.1)</div>
-</div>
 
-<div class="mb-4 p-3 border rounded-3 bg-light">
-<div class="fw-bold mb-1">WP10 Communication, Dissemination and Capacity Building 	</div>
-<div class="text-secondary">(Tasks 10.1, 10.2, 10.3, 10.5)</div>
-</div>
+
 
 <!-- Agregar más elementos aquí de ser necesario -->
 </div>
@@ -159,6 +243,27 @@ export default {
         font-size: 1.25rem; /* Reduce el tamaño de la fuente en móviles */
     }
 }
+.accordion-header {
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .accordion-header:hover {
+      background-color: var(--bs-secondary-bg-subtle);
+    }
+
+    .icon-toggle {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Flecha rota cuando está abierto */
+    .collapsed .icon-toggle {
+      transform: rotate(0deg);
+    }
+
+    .icon-toggle {
+      transform: rotate(180deg);
+    }
 </style>
 
 
