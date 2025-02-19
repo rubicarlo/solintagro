@@ -25,7 +25,7 @@
             <h5 style="font-weight: 600;">{{ $t('Contacto.oficina') }}</h5>
             <p>{{ $t('Contacto.lugar') }}</p>
             <h5 style="font-weight: 600;">{{ $t('Contacto.Telefono') }}</h5>
-            <p>957 44 55 11 </p>
+            <p><a href="tel:+34683518766">+34 683518766</a></p>
         </div>
         <div class="col-md-3 d-flex flex-column gap-3">
             <h5 style="font-weight: 600;">{{ $t('Contacto.Emilio') }}</h5>
