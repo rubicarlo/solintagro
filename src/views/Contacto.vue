@@ -148,7 +148,7 @@ export default {
 
       emailjs
         .send(
-          "service_amdn97i",
+          "service_opdtczh",
           "template_1k5jnoo",
           {
             name: this.formData.name,

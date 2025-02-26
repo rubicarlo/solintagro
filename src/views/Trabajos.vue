@@ -18,7 +18,7 @@
             />
           </div>
           <div class="card-body text-center">
-            <p class="card-text text-muted">{{ trabajo.descripcion }}</p>
+            <p class="card-text text-muted">{{ trabajo.abajo }}</p>
           </div>
         </div>
       </div>
@@ -59,26 +59,74 @@
 <script>
 import AGILE from '@/assets/Experiencia/AGILE27Abril2018.jpg';
 import GWASveza from '@/assets/Experiencia/GWASvezabotanico21marzo2024.jpg';
-import intercrop from '@/assets/Experiencia/intercrop varios 22 Marzo 2020(1).jpg';
-import Pozoblanco from '@/assets/Experiencia/Pozoblanco 2006.jpg';
-import uno from '@/assets/Experiencia/IMG_20180409_125740.jpg';
-import dos from '@/assets/Experiencia/IMG_20220813_093945.jpg';
-import tres from '@/assets/Experiencia/IMG-20150612-WA0005.jpg';
-import cuatro from '@/assets/Experiencia/IMG-20180214-WA0010.jpg';
+import frijol from '@/assets/Experiencia/IMG-20150612-WA0005.jpg';
+import almortas from '@/assets/Experiencia/ColaboracionconelITQB.jpg';
+import TRUE from '@/assets/Experiencia/UnionEuropeaTRUE.jpg';
+import BIOVALUE from '@/assets/Experiencia/Cordobamarzo2024BIOVALUE.jpg';
+import LegumES from '@/assets/Experiencia/IMG_20180409_125740.jpg';
+import PROSPER from '@/assets/Experiencia/IMG-20180214-WA0010.jpg';
 
 export default {
   name: "Trabajos",
   data() {
     return {
       trabajos: [
-        { titulo: "AGILE", descripcion: "Trabajo de AGILE realizado en abril 2018.", imagen: AGILE },
-        { titulo: "GWAS Vezabotanico", descripcion: "Estudio de GWAS en el jardín botánico, marzo 2024.", imagen: GWASveza },
-        { titulo: "Intercrop", descripcion: "Intercrop en la agricultura, marzo 2020                d        ddddddddddddddd    d        ddddddddddddddd    d        ddddddddddddddddddddddd.", imagen: intercrop },
-        { titulo: "Pozoblanco", descripcion: "Vista de Pozoblanco en 2006.", imagen: Pozoblanco },
-        { titulo: "Imagen Uno", descripcion: "Una fotografía tomada en abril 2018.", imagen: uno },
-        { titulo: "Imagen Dos", descripcion: "Otra fotografía tomada en agosto 2022.fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", imagen: dos },
-        { titulo: "Imagen Tres", descripcion: "Fotografía de 2015 con un paisaje bello.", imagen: tres },
-        { titulo: "Imagen Cuatro", descripcion: "Fotografía de febrero 2018, con un paisaje nevado.", imagen: cuatro },
+      {
+    titulo: "Proyecto AGILE",
+    descripcion:
+      "Colaboración en varias tareas de cuidado y multiplicación de una colección de germoplasma de lentejas en seno al proyecto AGILE (Aplicación de Innovación Genómica en la Economía de la Lenteja) (financiado por Universidad de Saskatchewan, Canadá) (2015-2018).",
+    imagen: AGILE,
+    abajo: "Cuidado y multiplicación de germoplasma de lentejas en el proyecto AGILE (2015-2018).",
+  },
+  {
+    titulo: "Colaboración IAS-CSIC",
+    descripcion:
+      "Colaboración desde 2016 con el Instituto de Agricultura Sostenible (IAS-CSIC) en diferentes tareas de apoyo a la investigación en leguminosas.",
+    imagen: GWASveza,
+    abajo: "Colaboración en investigación de leguminosas con el IAS-CSIC desde 2016.",
+  },
+  {
+    titulo: "Muestreo de frijol",
+    descripcion:
+      "Colaboración con el ITQB (Instituto de Tecnología Química y Biológica, Oeiras, Portugal) para multiplicación y muestreo de una colección de germoplasma de frijol común (2016/17).",
+    imagen: frijol,
+    abajo: "Multiplicación y muestreo de frijol común con el ITQB (2016/17).",
+  },
+  {
+    titulo: "Resistencia en almortas",
+    descripcion:
+      "Colaboración con el ITQB (Instituto de Tecnología Química y Biológica, Oeiras, Portugal) para multiplicación de material vegetal (500 genotipos), puesta a punto y desarrollo de evaluaciones para la respuesta de resistencia en almortas (Lathyrus spp.) a infestaciones por gorgojos (2017/18).",
+    imagen: almortas,
+    abajo: "Evaluación de resistencia en almortas con el ITQB (2017/18).",
+  },
+  {
+    titulo: "Proyecto TRUE",
+    descripcion:
+      "Participación en diferentes tareas del Proyecto Internacional financiado por la Unión Europea TRUE (TRansition paths to sUstainable legume based systems in Europe): H2020-SFS-2016-2017/H2020-SFS-2016-2 (2017-2021). Desarrollo de estudios piloto en campo; evaluación de sistemas de cultivo de leguminosas (guisantes, habas, algarrobas, lentejas, garbanzos y almortas); desarrollo de material vegetal mejorado.",
+    imagen: TRUE,
+    abajo: "Evaluación de sistemas de cultivo de leguminosas en la UE (2017-2021).",
+  },
+  {
+    titulo: "Proyecto BIOVALUE",
+    descripcion:
+      "Participación en diferentes tareas del Proyecto Internacional financiado por la Unión Europea BIOVALUE (Fork-to-farm agent-based simulation tool augmenting BIOdiversity in the agri-food VALUE chain): Grant Agreement 101000499 — BIOVALUE — H2020-SFS-2018-2020 / H2020-SFS-2020-2 (2021-2025). Multiplicación y distribución de las semillas utilizadas en los estudios piloto llevados a cabo por los diferentes colaboradores; estudio en detalle la calidad nutricional y el comportamiento postcosecha de las especies plantadas en los casos piloto (almortas); desarrollo de un protocolo relativo a la recolección de datos para la evaluación de recursos fitogenéticos y su contribución a la biodiversidad de la UE; elaboración de manuales de manejo del cultivo de la almorta y lenteja en la UE.",
+    imagen: BIOVALUE,
+    abajo: "Estudio de semillas y biodiversidad en la UE (2021-2025).",
+  },
+  {
+    titulo: "Proyecto LegumES",
+    descripcion:
+      "Participación en diferentes tareas del Proyecto Internacional financiado por la Unión Europea LegumES (Valorising and balancing the ecosystem service benefits offered by legumes, and legume-based cropped systems): Project 101135512 — LegumES — HORIZON-CL6-2023-BIODIV-01 (2024-2028). Elaborar el impacto de los contextos ambientales y genéticos en los múltiples beneficios de los servicios ecosistémicos (SE) mediados por leguminosas y/o su coste.",
+    imagen: LegumES,
+    abajo: "Impacto ambiental y genético en servicios ecosistémicos (2024-2028).",
+  },
+  {
+    titulo: "Proyecto PROSPER",
+    descripcion:
+      "Participación en diferentes tareas del Proyecto Internacional financiado por la Unión Europea PROSPER (Promoting Resilient Orphan Legumes for Sustainable Agriculture and Food Security): SEP-211009149 HORIZON-CL6-2024-BIODIV-02 (2025-2029). Cultivo de leguminosas (comunes y minoritarias); tareas de mejora, agronomía, sistemas de cultivo, cadena de valor, tecnología de semillas.",
+    imagen: PROSPER,
+    abajo: "Mejora y cultivo de leguminosas para seguridad alimentaria (2025-2029).",
+  },  
       ],
       imagenSeleccionada: null,
     };

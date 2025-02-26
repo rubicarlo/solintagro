@@ -49,8 +49,8 @@
 
 <script>
 import leguminosasImage from '../assets/leguminosas.webp'; 
-import Logo_CSIC from '../assets/Logo_CSIC.jpg';
-import Logo_FR from '../assets/Logo_centro_frances.svg';
+import Logo_CSIC from '../assets/Logo_CSIC.webp';
+import Logo_IAS from '../assets/ias_vertical.webp';
 import Logo_age from '../assets/Logotipo_de_la_Agencia_Estatal_de_Investigación.svg';
 import itqb from '../assets/itqb.webp';
 
@@ -61,7 +61,7 @@ export default {
       leguminosasImage: leguminosasImage, 
       images: [
         { src: Logo_CSIC, alt: 'Logo del CSIC' },
-        { src: Logo_FR, alt: 'Logo del centro francés'},
+        { src: Logo_IAS, alt: 'Logo del IAS'},
         { src: Logo_age, alt: 'Logo de la Agencia Estatal de Investigación'},
         { src: itqb, alt: 'Logo de guisantes'}
       ]
