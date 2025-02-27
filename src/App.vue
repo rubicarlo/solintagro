@@ -35,23 +35,27 @@ const changeToEng = () => {
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <!-- Banderas para cambiar idioma -->
-        <div class="d-flex align-items-center me-3">
-          <img
+    <div class="d-flex align-items-center me-3">
+        <img
             src="/banderaesp.svg"
             alt="Español"
             class="flag-icon me-2"
             @click="changeToEsp"
-            style="cursor: pointer; width: 30px; height: 20px;"
-          />
-          <img
+            style="cursor: pointer; width: 30px; height: 20px; transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;"
+            onmouseover="this.style.transform = 'scale(1.1)'; this.style.opacity = '0.8';"
+            onmouseout="this.style.transform = 'scale(1)'; this.style.opacity = '1';"
+        />
+        <img
             src="/banderaengl.svg"
             alt="Inglés"
             class="flag-icon"
             @click="changeToEng"
-            style="cursor: pointer; width: 30px; height: 20px;"
-          />
-        </div>
+            style="cursor: pointer; width: 30px; height: 20px; transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;"
+            onmouseover="this.style.transform = 'scale(1.1)'; this.style.opacity = '0.8';"
+            onmouseout="this.style.transform = 'scale(1)'; this.style.opacity = '1';"
+        />
+    </div>
+
 
         <ul class="navbar-nav">
           <li class="nav-item">

@@ -33,17 +33,65 @@
         "Boton":"Send"
       
     },
-    "Trabajos": {
-      "tituloPrincipal": "This is how we work",
-      "oficina": "Oficina principal",
-      "lugar": "C/ ESCRITORA ROSA CHACEL, 4 - LOCAL 2. 14004",
-      "Telefono": "Teléfono",
-      "Emilio": "Email",
-      "Correonombre":"Nombre",
-      "cuadronombre":"Ingresa tu nombre o el de tu empresa",
-      "Correoemilio":"Email",
-      "cuadrocorreo":"Ingresa tu email",
-      "Correoasunto":"Asunto",
-      "cuadroasunto":"Escribe tu mensaje aquí"
-    }    
-  }
+      "Trabajos": {
+    "tituloPrincipal": "Our Projects and Collaborations",
+    "trabajosLista": [
+      {
+        "proyectoAGILE": {
+          "titulo": "AGILE Project",
+          "descripcion": "Collaboration in various tasks of care and multiplication of a lentil germplasm collection within the AGILE project (Application of Genomic Innovation in the Lentil Economy) (funded by the University of Saskatchewan, Canada) (2015-2018).",
+          "abajo": "Care and multiplication of lentil germplasm in the AGILE project (2015-2018)."
+        }
+      },
+      {
+        "colaboracionIASCSIC": {
+          "titulo": "IAS-CSIC Collaboration",
+          "descripcion": "Collaboration since 2016 with the Institute of Sustainable Agriculture (IAS-CSIC) in different tasks supporting research in legumes.",
+          "abajo": "Collaboration in legume research with the IAS-CSIC since 2016."
+        }
+      },
+      {
+        "muestreoFrijol": {
+          "titulo": "Bean sampling",
+          "descripcion": "Collaboration with ITQB (Institute of Chemical and Biological Technology, Oeiras, Portugal) for multiplication and sampling of a common bean germplasm collection (2016/17).",
+          "abajo": "Multiplication and sampling of common bean with ITQB (2016/17)."
+        }
+      },
+      {
+        "resistenciaAlmortas": {
+          "titulo": "Resistance in grass peas",
+          "descripcion": "Collaboration with ITQB (Institute of Chemical and Biological Technology, Oeiras, Portugal) for multiplication of plant material (500 genotypes), setup and development of evaluations for the resistance response in grass peas (Lathyrus spp.) to weevil infestations (2017/18).",
+          "abajo": "Evaluation of resistance in grass peas with ITQB (2017/18)."
+        }
+      },
+      {
+        "proyectoTRUE": {
+          "titulo": "TRUE Project",
+          "descripcion": "Participation in different tasks of the International Project funded by the European Union TRUE (TRansition paths to sUstainable legume based systems in Europe): H2020-SFS-2016-2017/H2020-SFS-2016-2 (2017-2021). Development of field pilot studies; evaluation of legume cropping systems (peas, broad beans, carob beans, lentils, chickpeas and grass peas); development of improved plant material.",
+          "abajo": "Evaluation of legume cropping systems in the EU (2017-2021)."
+        }
+      },
+      {
+        "proyectoBIOVALUE": {
+          "titulo": "BIOVALUE Project",
+          "descripcion": "Participation in different tasks of the International Project funded by the European Union BIOVALUE (Fork-to-farm agent-based simulation tool augmenting BIOdiversity in the agri-food VALUE chain): Grant Agreement 101000499 — BIOVALUE — H2020-SFS-2018-2020 / H2020-SFS-2020-2 (2021-2025). Multiplication and distribution of seeds used in pilot studies carried out by different collaborators; detailed study of the nutritional quality and post-harvest behavior of the species planted in the pilot cases (grass peas); development of a protocol regarding data collection for the evaluation of plant genetic resources and their contribution to EU biodiversity; preparation of manuals for the management of grass pea and lentil cultivation in the EU.",
+          "abajo": "Study of seeds and biodiversity in the EU (2021-2025)."
+        }
+      },
+      {
+        "proyectoLegumES": {
+          "titulo": "LegumES Project",
+          "descripcion": "Participation in different tasks of the International Project funded by the European Union LegumES (Valorising and balancing the ecosystem service benefits offered by legumes, and legume-based cropped systems): Project 101135512 — LegumES — HORIZON-CL6-2023-BIODIV-01 (2024-2028). Elaborate the impact of environmental and genetic contexts on the multiple benefits of ecosystem services (ES) mediated by legumes and/or their cost.",
+          "abajo": "Environmental and genetic impact on ecosystem services (2024-2028)."
+        }
+      },
+      {
+        "proyectoPROSPER": {
+          "titulo": "PROSPER Project",
+          "descripcion": "Participation in different tasks of the International Project funded by the European Union PROSPER (Promoting Resilient Orphan Legumes for Sustainable Agriculture and Food Security): SEP-211009149 HORIZON-CL6-2024-BIODIV-02 (2025-2029). Legume cultivation (common and minor); improvement tasks, agronomy, cropping systems, value chain, seed technology.",
+          "abajo": "Improvement and cultivation of legumes for food security (2025-2029)."
+        }
+      }
+    ]
+  }}
+  

@@ -30,13 +30,13 @@
                 data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                 <div>
                     <div class="text-muted">2017-2021</div>
-                    <div>Partner of EU project TRUE</div>
+                    <div>Partner of EU project TRUE (TRansition to sUstainable legume based systems in Europe) </div>
                 </div>
             </button>
         </h2>
         <div id="collapse1" class="accordion-collapse collapse">
             <div class="accordion-body">
-                <div class="text-secondary">H2020-SFS-2016-2017/H2020-SFS-2016-2</div>
+                <div class="text-secondary">H2020-SFS-2016-2017/H2020-SFS-2016-2 <p>Breeding program applied on Lathyrus clymenum and L. ochrus and Lens culinaris that are evaluated for characteristics of importance to sustainable agriculture (combination of low inputs request, increased and stable yield and resistance to stresses).</p><p><a href="https://true-project.webarchive.hutton.ac.uk/index.htm" target="_blank">https://true-project.webarchive.hutton.ac.uk/index.htm</a></p></div>
             </div>
         </div>
     </div>
@@ -48,13 +48,13 @@
                 data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                 <div>
                     <div class="text-muted">2017 - 2020</div>
-                    <div>External collaborator for AGILE project</div>
+                    <div>External collaborator for AGILE project (Application of Genomic Innovation in the Lentil Economy)</div>
                 </div>
             </button>
         </h2>
         <div id="collapse2" class="accordion-collapse collapse" >
             <div class="accordion-body">
-                <div class="text-secondary">University of Saskatchewan, Canada</div>
+                <div class="text-secondary">University of Saskatchewan, Canada<p>Phenotyping a lentil panel under field and controlled conditions for environmental adaptation, stress resistance and agronomic traits.</p><p><a href="https://genomeprairie.ca/project/agile/" target="_blank">https://genomeprairie.ca/project/agile/</a></p></div>
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@
         </h2>
         <div id="collapse5" class="accordion-collapse collapse" >
             <div class="accordion-body">
-                <div class="text-secondary">Detalles adicionales...</div>
+                <div class="text-secondary">Valorising and balancing the ecosystem service benefits offered by legumes, and legume-based cropped systems<p><a href="https://genomeprairie.ca/project/agile/" target="_blank">https://genomeprairie.ca/project/agile/</a></p></div>
             </div>
         </div>
     </div>
@@ -119,7 +119,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                 <div>
-                    <div class="text-muted">2016 – till present</div>
+                    <div class="text-muted">2025 – till present</div>
                     <div>PROSPER</div>
                 </div>
             </button>
@@ -132,17 +132,16 @@
     </div>
 </div></div>
 
-
+   
     <!-- Agregar más elementos aquí de ser necesario -->
- 
-
-
-    <div class="container mt-4">
+   
+<!--
+<div class="container mt-4">
     <h2 class="text-center mb-5 display-5">{{ $t('about.tituloWP') }}</h2>
 
-    <!-- Acordeón unificado -->
+    <!- - Acordeón unificado (comentario interno deshabilitado) - ->
     <div class="accordion" id="workPackagesAccordion">
-        <!-- WP5 -->
+        <!- - WP5 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -155,7 +154,7 @@
             </div>
         </div>
 
-        <!-- WP6 -->
+        <!- - WP6 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -168,7 +167,7 @@
             </div>
         </div>
 
-        <!-- WP7 -->
+        <!- - WP7 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -185,7 +184,7 @@
             </div>
         </div>
 
-        <!-- WP8 -->
+        <!- - WP8 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -198,7 +197,7 @@
             </div>
         </div>
 
-        <!-- WP9 -->
+        <!- - WP9 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -211,7 +210,7 @@
             </div>
         </div>
 
-        <!-- WP10 -->
+        <!- - WP10 - ->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -224,14 +223,17 @@
             </div>
         </div>
     </div>
+</div>
 
+</div>
+-->
 
 
 
 
 
 <!-- Agregar más elementos aquí de ser necesario -->
-</div>
+
   </section>
 </template>
 
