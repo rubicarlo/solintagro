@@ -148,14 +148,14 @@ export default {
 
       emailjs
         .send(
-          "service_opdtczh",
-          "template_1k5jnoo",
+          "service_nem37hv",
+          "template_wf0c9zj",
           {
             name: this.formData.name,
             email: this.formData.email,
             message: this.formData.message,
           },
-          "rlNyvxAxp0WUnVEtr"
+          "ngaiMuXrW5IXarCKU"
         )
         .then(() => {
           this.successMessage = "¡Correo enviado exitosamente!";

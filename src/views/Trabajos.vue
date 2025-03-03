@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2 class="text-center mb-5 mt-5 display-5">{{ $t('Trabajos.tituloPrincipal') }}</h2>
-    <div class="row">
+    <div class="row mb-5">
       <div
         class="col-6 col-sm-4 col-md-3 mb-4 d-flex justify-content-center"
         v-for="(trabajo, index) in trabajos"

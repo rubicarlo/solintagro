@@ -22,7 +22,7 @@
   <h2 class="text-center mb-5 display-5">Proyectos</h2>
 
   <!-- Elementos colapsables -->
-  <div class="accordion" id="proyectosAccordion">
+  <div class="accordion mb-5" id="proyectosAccordion">
     <!-- Primer elemento -->
     <div class="accordion-item">
         <h2 class="accordion-header">

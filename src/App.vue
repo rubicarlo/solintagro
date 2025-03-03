@@ -78,14 +78,15 @@ const changeToEng = () => {
   <router-view></router-view>
 
   <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p class="mb-0">&copy; 2025 Solintagro. Todos los derechos reservados.</p>
-      <p class="mb-0">
-        <router-link to="/Privacidad" class="text-white">Política de Privacidad</router-link>  |  
-        <a href="/aviso" class="text-white">Aviso legal</a>
-      </p>
-    </div>
-  </footer>
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Solintagro. Todos los derechos reservados.</p>
+    <p class="mb-0">
+      <router-link to="/Privacidad" class="text-white">Política de Privacidad</router-link>  |  
+      <a href="/aviso" class="text-white">Aviso legal</a>
+    </p>
+    <p class="mb-0 text-muted small text-end me-3">Web realizada por Carlos Rubiales Ordóñez</p>
+  </div>
+</footer>
 </template>
 
 <style scoped>
