@@ -112,8 +112,25 @@
             </div>
         </div>
     </div>
-
+<!-- otro elemento -->
+<div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                <div>
+                    <div class="text-muted">2020 – 2025</div>
+                    <div>BioValue</div>
+                </div>
+            </button>
+        </h2>
+        <div id="collapse7" class="accordion-collapse collapse" >
+            <div class="accordion-body">
+                <div class="text-secondary"><a href="https://www.biovalue-project.eu/" target="_blank">https://www.biovalue-project.eu//</a></div>
+            </div>
+        </div>
+    </div>
     <!-- Sexto elemento -->
+     
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -131,105 +148,6 @@
         </div>
     </div>
 </div></div>
-
-   
-    <!-- Agregar más elementos aquí de ser necesario -->
-   
-<!--
-<div class="container mt-4">
-    <h2 class="text-center mb-5 display-5">{{ $t('about.tituloWP') }}</h2>
-
-    <!- - Acordeón unificado (comentario interno deshabilitado) - ->
-    <div class="accordion" id="workPackagesAccordion">
-        <!- - WP5 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp5" aria-expanded="false" aria-controls="wp5">
-                    WP5 Novel dishes and processed products enhancing biodiversity
-                </button>
-            </h2>
-            <div id="wp5" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">(Task 5.4)</div>
-            </div>
-        </div>
-
-        <!- - WP6 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp6" aria-expanded="false" aria-controls="wp6">
-                    WP6 Environment and Biodiversity
-                </button>
-            </h2>
-            <div id="wp6" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">(Tasks 6.1, 6.2, 6.3, 6.4)</div>
-            </div>
-        </div>
-
-        <!- - WP7 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp7" aria-expanded="false" aria-controls="wp7">
-                    WP7 Exploitation of genetic diversity and development of pre-breeding material
-                </button>
-            </h2>
-            <div id="wp7" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">
-                    (Tasks 7.1, 7.2: Pilot cases (with Germany), 7.3, 7.4: Vertical approach to proliferate the results)<br>
-                    D7.4.1 Handbook on Lens culinaris (SOL) [M45]<br>
-                    D7.4.2 Handbook on Lathyrus spp. (SOL) [M45]
-                </div>
-            </div>
-        </div>
-
-        <!- - WP8 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp8" aria-expanded="false" aria-controls="wp8">
-                    WP8 Enhancing the agri-food value chain biodiversity links via the BIOVALUE tool
-                </button>
-            </h2>
-            <div id="wp8" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">(Tasks 8.1, 8.3)</div>
-            </div>
-        </div>
-
-        <!- - WP9 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp9" aria-expanded="false" aria-controls="wp9">
-                    WP9 Certification, testing and labelling of underutilized products
-                </button>
-            </h2>
-            <div id="wp9" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">(Task 9.1)</div>
-            </div>
-        </div>
-
-        <!- - WP10 - ->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#wp10" aria-expanded="false" aria-controls="wp10">
-                    WP10 Communication, Dissemination and Capacity Building
-                </button>
-            </h2>
-            <div id="wp10" class="accordion-collapse collapse" >
-                <div class="accordion-body text-secondary">(Tasks 10.1, 10.2, 10.3, 10.5)</div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</div>
--->
-
-
-
 
 
 <!-- Agregar más elementos aquí de ser necesario -->
